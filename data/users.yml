@@ -1,4 +1,6 @@
-- name: 'Sébastien Saunier'
-  github_nickname: 'ssaunier'
-- name: 'Boris Paillard'
-  github_nickname: 'Papillard'
+- name: 'Baptiste Boucher'
+  github_nickname: 'bouplusbou'
+  picture: baptiste_boucher.jpeg
+- name: 'Alexandre Canonica'
+  github_nickname: 'Acanonica'
+  picture: alexandre_canonica.jpeg

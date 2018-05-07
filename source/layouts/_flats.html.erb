@@ -1,0 +1,22 @@
+<div class="container">
+  <h2 class="text-center"></class>Recent flats</h2>
+  <div class="row">
+    <% data.flats.each do |flat| %>
+      <div class="col-md-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path flat.picture%>);">
+          <div class="card-category"><%= flat.city_names %></div>
+          <div class="card-description">
+            <h2><%= flat.owner_name %>'s home</h2>
+            <p><%= flat.description %></p>
+        <!--     <p><%= flat.votes %></p> -->
+          </div>
+          <img class="card-user" src=<%= flat.owner_picture %>>
+          <a class="card-link" href="#" ></a>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+
