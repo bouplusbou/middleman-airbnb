@@ -1,18 +1,21 @@
 - flat_id: 1
   picture: paris.jpeg
   owner_name : Sebastien
+  owner_picture: ssaunier.jpeg
   city_name: "PARIS, FRANCE"
   description: "Charming room in Montmartre"
   votes: 4
 - flat_id: 2
   picture: tokyo.jpeg
   owner_name : Boris
+  owner_picture: papillard.jpeg
   city_name: "TOKYO, JAPAN"
   description: "Small flat in Tokyo"
   votes: 3
 - flat_id: 3
   picture: london.jpeg
   owner_name : Romain
+  owner_picture: random.jpeg
   city_name: "LONDON, UK"
   description: "Nice flat in Piccadilly"
   votes: 5
